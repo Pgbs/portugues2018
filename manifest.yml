@@ -1,0 +1,15 @@
+declared-services:
+  my-conversation-service:
+    label: conversation
+    plan: free
+  speech-to-text-service:
+    label: speech_to_text
+    plan: free
+  text-to-speech-service:
+    label: text_to_speech
+    plan: free
+applications:
+- name: portugues2018
+  command: npm start
+  path: .
+  memory: 256M
